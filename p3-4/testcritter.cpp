@@ -1,6 +1,6 @@
 /*
 CH08-320142
-a3_p3.cpp
+a3_p4.cpp
 Dushan Terzikj
 d.terzikj@jacobs-university.de
 */
@@ -30,6 +30,8 @@ int main(int argc, char** argv){
     three.print();
     Critter four("Critter-Four", 5, 2, 13.0);
     four.print();
+    Critter five("Critter-Five", 5, 4, 14.0, 60);
+    five.print();
 
     return 0;
 }
