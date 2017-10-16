@@ -1,3 +1,9 @@
+/*
+CH08-320142
+a3_p2.cpp
+Dushan Terzikj
+d.terzikj@jacobs-university.de
+*/
 #include <iostream>
 #include <cstdlib>
 #include "Critter.h"
