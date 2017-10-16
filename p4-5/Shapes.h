@@ -78,6 +78,7 @@ private:
 public:
 
 	Rectangle();
+	Rectangle(const Rectangle&);
 	Rectangle(const string &n, double nx, double ny, double nwidth,
 	double nheight);
 
@@ -99,6 +100,7 @@ class Square : public Rectangle{
 public:
 
 	Square();
+	Square(const Square&);
 	Square(const string &n, double nx, double ny, double nside);
 };
 

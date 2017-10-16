@@ -18,9 +18,18 @@ Shape::Shape() : name(""){}
 Shape::Shape(const string& n) : name(n) {
 }
 
+Shape::Shape(const Shape& s){
+	this->name = s.name;
+}
+
 CenteredShape::CenteredShape() : Shape(){
 	this->x = 0;
 	this->y = 0;
+}
+
+CenteredShape::CenteredShape(const CenteredShape& cs) : Shape(cs){
+	this->x = cs.x;
+	this->y = cs.y;
 }
 
 CenteredShape::CenteredShape(const string& n, double nx, double ny): Shape(n) {
@@ -28,8 +37,13 @@ CenteredShape::CenteredShape(const string& n, double nx, double ny): Shape(n) {
 	y = ny;
 }
 
+
 RegularPolygon::RegularPolygon() : CenteredShape(){
 	this->EdgesNumber = 0;
+}
+
+RegularPolygon::RegularPolygon(const RegularPolygon& rp) : CenteredShape(rp){
+	this->EdgesNumber = rp.EdgesNumber;
 }
 
 RegularPolygon::RegularPolygon(const string& n, double nx, double ny, int nl) :
@@ -42,6 +56,10 @@ Circle::Circle() : CenteredShape(){
 	this->Radius = 0;
 }
 
+Circle::Circle(const Circle& circle) : CenteredShape(circle){
+	this->Radius = circle.Radius;
+}
+
 Circle::Circle(const string& n, double nx, double ny, double r) :
 CenteredShape(n,nx,ny)
 {
@@ -50,6 +68,11 @@ CenteredShape(n,nx,ny)
 
 Rectangle::Rectangle() : RegularPolygon(){}
 
+Rectangle::Rectangle(const Rectangle& rect) : RegularPolygon(rect){
+	this->width = rect.width;
+	this->height = rect.height;
+}
+
 Rectangle::Rectangle(const string &n, double nx, double ny, double nwidth,
 double nheight) : RegularPolygon(n, nx, ny, 4){
 	this->width = nwidth;
@@ -57,6 +80,8 @@ double nheight) : RegularPolygon(n, nx, ny, 4){
 }
 
 Square::Square() : Rectangle(){}
+
+Square::Square(const Square& sq) : Rectangle(sq){}
 
 Square::Square(const string &n, double nx, double ny, double nside) : Rectangle(n, nx,
 ny, nside, nside){}
