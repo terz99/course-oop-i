@@ -84,6 +84,36 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/dushan/Workspace/cs-homework/oop-i/p6-3/Area.cpp">
+			<Option target="p6_3"/>
+		</Unit>
+		<Unit filename="/home/dushan/Workspace/cs-homework/oop-i/p6-3/Area.h">
+			<Option target="p6_3"/>
+		</Unit>
+		<Unit filename="/home/dushan/Workspace/cs-homework/oop-i/p6-3/Circle.cpp">
+			<Option target="p6_3"/>
+		</Unit>
+		<Unit filename="/home/dushan/Workspace/cs-homework/oop-i/p6-3/Circle.h">
+			<Option target="p6_3"/>
+		</Unit>
+		<Unit filename="/home/dushan/Workspace/cs-homework/oop-i/p6-3/Rectangle.cpp">
+			<Option target="p6_3"/>
+		</Unit>
+		<Unit filename="/home/dushan/Workspace/cs-homework/oop-i/p6-3/Rectangle.h">
+			<Option target="p6_3"/>
+		</Unit>
+		<Unit filename="/home/dushan/Workspace/cs-homework/oop-i/p6-3/Ring.cpp">
+			<Option target="p6_3"/>
+		</Unit>
+		<Unit filename="/home/dushan/Workspace/cs-homework/oop-i/p6-3/Ring.h">
+			<Option target="p6_3"/>
+		</Unit>
+		<Unit filename="/home/dushan/Workspace/cs-homework/oop-i/p6-3/Square.cpp">
+			<Option target="p6_3"/>
+		</Unit>
+		<Unit filename="/home/dushan/Workspace/cs-homework/oop-i/p6-3/Square.h">
+			<Option target="p6_3"/>
+		</Unit>
 		<Unit filename="/home/dushan/Workspace/cs-homework/oop-i/p6-3/main.cpp">
 			<Option target="p6_3"/>
 		</Unit>

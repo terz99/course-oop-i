@@ -1,5 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/p6_3.dir/main.cpp.o"
+  "CMakeFiles/p6_3.dir/Area.cpp.o"
+  "CMakeFiles/p6_3.dir/Rectangle.cpp.o"
+  "CMakeFiles/p6_3.dir/Ring.cpp.o"
+  "CMakeFiles/p6_3.dir/Circle.cpp.o"
+  "CMakeFiles/p6_3.dir/Square.cpp.o"
   "p6_3.pdb"
   "p6_3"
 )

@@ -123,6 +123,141 @@ p6_3/fast:
 	$(MAKE) -f CMakeFiles/p6_3.dir/build.make CMakeFiles/p6_3.dir/build
 .PHONY : p6_3/fast
 
+Area.o: Area.cpp.o
+
+.PHONY : Area.o
+
+# target to build an object file
+Area.cpp.o:
+	$(MAKE) -f CMakeFiles/p6_3.dir/build.make CMakeFiles/p6_3.dir/Area.cpp.o
+.PHONY : Area.cpp.o
+
+Area.i: Area.cpp.i
+
+.PHONY : Area.i
+
+# target to preprocess a source file
+Area.cpp.i:
+	$(MAKE) -f CMakeFiles/p6_3.dir/build.make CMakeFiles/p6_3.dir/Area.cpp.i
+.PHONY : Area.cpp.i
+
+Area.s: Area.cpp.s
+
+.PHONY : Area.s
+
+# target to generate assembly for a file
+Area.cpp.s:
+	$(MAKE) -f CMakeFiles/p6_3.dir/build.make CMakeFiles/p6_3.dir/Area.cpp.s
+.PHONY : Area.cpp.s
+
+Circle.o: Circle.cpp.o
+
+.PHONY : Circle.o
+
+# target to build an object file
+Circle.cpp.o:
+	$(MAKE) -f CMakeFiles/p6_3.dir/build.make CMakeFiles/p6_3.dir/Circle.cpp.o
+.PHONY : Circle.cpp.o
+
+Circle.i: Circle.cpp.i
+
+.PHONY : Circle.i
+
+# target to preprocess a source file
+Circle.cpp.i:
+	$(MAKE) -f CMakeFiles/p6_3.dir/build.make CMakeFiles/p6_3.dir/Circle.cpp.i
+.PHONY : Circle.cpp.i
+
+Circle.s: Circle.cpp.s
+
+.PHONY : Circle.s
+
+# target to generate assembly for a file
+Circle.cpp.s:
+	$(MAKE) -f CMakeFiles/p6_3.dir/build.make CMakeFiles/p6_3.dir/Circle.cpp.s
+.PHONY : Circle.cpp.s
+
+Rectangle.o: Rectangle.cpp.o
+
+.PHONY : Rectangle.o
+
+# target to build an object file
+Rectangle.cpp.o:
+	$(MAKE) -f CMakeFiles/p6_3.dir/build.make CMakeFiles/p6_3.dir/Rectangle.cpp.o
+.PHONY : Rectangle.cpp.o
+
+Rectangle.i: Rectangle.cpp.i
+
+.PHONY : Rectangle.i
+
+# target to preprocess a source file
+Rectangle.cpp.i:
+	$(MAKE) -f CMakeFiles/p6_3.dir/build.make CMakeFiles/p6_3.dir/Rectangle.cpp.i
+.PHONY : Rectangle.cpp.i
+
+Rectangle.s: Rectangle.cpp.s
+
+.PHONY : Rectangle.s
+
+# target to generate assembly for a file
+Rectangle.cpp.s:
+	$(MAKE) -f CMakeFiles/p6_3.dir/build.make CMakeFiles/p6_3.dir/Rectangle.cpp.s
+.PHONY : Rectangle.cpp.s
+
+Ring.o: Ring.cpp.o
+
+.PHONY : Ring.o
+
+# target to build an object file
+Ring.cpp.o:
+	$(MAKE) -f CMakeFiles/p6_3.dir/build.make CMakeFiles/p6_3.dir/Ring.cpp.o
+.PHONY : Ring.cpp.o
+
+Ring.i: Ring.cpp.i
+
+.PHONY : Ring.i
+
+# target to preprocess a source file
+Ring.cpp.i:
+	$(MAKE) -f CMakeFiles/p6_3.dir/build.make CMakeFiles/p6_3.dir/Ring.cpp.i
+.PHONY : Ring.cpp.i
+
+Ring.s: Ring.cpp.s
+
+.PHONY : Ring.s
+
+# target to generate assembly for a file
+Ring.cpp.s:
+	$(MAKE) -f CMakeFiles/p6_3.dir/build.make CMakeFiles/p6_3.dir/Ring.cpp.s
+.PHONY : Ring.cpp.s
+
+Square.o: Square.cpp.o
+
+.PHONY : Square.o
+
+# target to build an object file
+Square.cpp.o:
+	$(MAKE) -f CMakeFiles/p6_3.dir/build.make CMakeFiles/p6_3.dir/Square.cpp.o
+.PHONY : Square.cpp.o
+
+Square.i: Square.cpp.i
+
+.PHONY : Square.i
+
+# target to preprocess a source file
+Square.cpp.i:
+	$(MAKE) -f CMakeFiles/p6_3.dir/build.make CMakeFiles/p6_3.dir/Square.cpp.i
+.PHONY : Square.cpp.i
+
+Square.s: Square.cpp.s
+
+.PHONY : Square.s
+
+# target to generate assembly for a file
+Square.cpp.s:
+	$(MAKE) -f CMakeFiles/p6_3.dir/build.make CMakeFiles/p6_3.dir/Square.cpp.s
+.PHONY : Square.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +294,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... p6_3"
+	@echo "... Area.o"
+	@echo "... Area.i"
+	@echo "... Area.s"
+	@echo "... Circle.o"
+	@echo "... Circle.i"
+	@echo "... Circle.s"
+	@echo "... Rectangle.o"
+	@echo "... Rectangle.i"
+	@echo "... Rectangle.s"
+	@echo "... Ring.o"
+	@echo "... Ring.i"
+	@echo "... Ring.s"
+	@echo "... Square.o"
+	@echo "... Square.i"
+	@echo "... Square.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -81,17 +81,147 @@ CMakeFiles/p6_3.dir/main.cpp.o.provides: CMakeFiles/p6_3.dir/main.cpp.o.requires
 CMakeFiles/p6_3.dir/main.cpp.o.provides.build: CMakeFiles/p6_3.dir/main.cpp.o
 
 
+CMakeFiles/p6_3.dir/Area.cpp.o: CMakeFiles/p6_3.dir/flags.make
+CMakeFiles/p6_3.dir/Area.cpp.o: ../Area.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dushan/Workspace/cs-homework/oop-i/p6-3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/p6_3.dir/Area.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/p6_3.dir/Area.cpp.o -c /home/dushan/Workspace/cs-homework/oop-i/p6-3/Area.cpp
+
+CMakeFiles/p6_3.dir/Area.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/p6_3.dir/Area.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dushan/Workspace/cs-homework/oop-i/p6-3/Area.cpp > CMakeFiles/p6_3.dir/Area.cpp.i
+
+CMakeFiles/p6_3.dir/Area.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/p6_3.dir/Area.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dushan/Workspace/cs-homework/oop-i/p6-3/Area.cpp -o CMakeFiles/p6_3.dir/Area.cpp.s
+
+CMakeFiles/p6_3.dir/Area.cpp.o.requires:
+
+.PHONY : CMakeFiles/p6_3.dir/Area.cpp.o.requires
+
+CMakeFiles/p6_3.dir/Area.cpp.o.provides: CMakeFiles/p6_3.dir/Area.cpp.o.requires
+	$(MAKE) -f CMakeFiles/p6_3.dir/build.make CMakeFiles/p6_3.dir/Area.cpp.o.provides.build
+.PHONY : CMakeFiles/p6_3.dir/Area.cpp.o.provides
+
+CMakeFiles/p6_3.dir/Area.cpp.o.provides.build: CMakeFiles/p6_3.dir/Area.cpp.o
+
+
+CMakeFiles/p6_3.dir/Rectangle.cpp.o: CMakeFiles/p6_3.dir/flags.make
+CMakeFiles/p6_3.dir/Rectangle.cpp.o: ../Rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dushan/Workspace/cs-homework/oop-i/p6-3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/p6_3.dir/Rectangle.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/p6_3.dir/Rectangle.cpp.o -c /home/dushan/Workspace/cs-homework/oop-i/p6-3/Rectangle.cpp
+
+CMakeFiles/p6_3.dir/Rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/p6_3.dir/Rectangle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dushan/Workspace/cs-homework/oop-i/p6-3/Rectangle.cpp > CMakeFiles/p6_3.dir/Rectangle.cpp.i
+
+CMakeFiles/p6_3.dir/Rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/p6_3.dir/Rectangle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dushan/Workspace/cs-homework/oop-i/p6-3/Rectangle.cpp -o CMakeFiles/p6_3.dir/Rectangle.cpp.s
+
+CMakeFiles/p6_3.dir/Rectangle.cpp.o.requires:
+
+.PHONY : CMakeFiles/p6_3.dir/Rectangle.cpp.o.requires
+
+CMakeFiles/p6_3.dir/Rectangle.cpp.o.provides: CMakeFiles/p6_3.dir/Rectangle.cpp.o.requires
+	$(MAKE) -f CMakeFiles/p6_3.dir/build.make CMakeFiles/p6_3.dir/Rectangle.cpp.o.provides.build
+.PHONY : CMakeFiles/p6_3.dir/Rectangle.cpp.o.provides
+
+CMakeFiles/p6_3.dir/Rectangle.cpp.o.provides.build: CMakeFiles/p6_3.dir/Rectangle.cpp.o
+
+
+CMakeFiles/p6_3.dir/Ring.cpp.o: CMakeFiles/p6_3.dir/flags.make
+CMakeFiles/p6_3.dir/Ring.cpp.o: ../Ring.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dushan/Workspace/cs-homework/oop-i/p6-3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/p6_3.dir/Ring.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/p6_3.dir/Ring.cpp.o -c /home/dushan/Workspace/cs-homework/oop-i/p6-3/Ring.cpp
+
+CMakeFiles/p6_3.dir/Ring.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/p6_3.dir/Ring.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dushan/Workspace/cs-homework/oop-i/p6-3/Ring.cpp > CMakeFiles/p6_3.dir/Ring.cpp.i
+
+CMakeFiles/p6_3.dir/Ring.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/p6_3.dir/Ring.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dushan/Workspace/cs-homework/oop-i/p6-3/Ring.cpp -o CMakeFiles/p6_3.dir/Ring.cpp.s
+
+CMakeFiles/p6_3.dir/Ring.cpp.o.requires:
+
+.PHONY : CMakeFiles/p6_3.dir/Ring.cpp.o.requires
+
+CMakeFiles/p6_3.dir/Ring.cpp.o.provides: CMakeFiles/p6_3.dir/Ring.cpp.o.requires
+	$(MAKE) -f CMakeFiles/p6_3.dir/build.make CMakeFiles/p6_3.dir/Ring.cpp.o.provides.build
+.PHONY : CMakeFiles/p6_3.dir/Ring.cpp.o.provides
+
+CMakeFiles/p6_3.dir/Ring.cpp.o.provides.build: CMakeFiles/p6_3.dir/Ring.cpp.o
+
+
+CMakeFiles/p6_3.dir/Circle.cpp.o: CMakeFiles/p6_3.dir/flags.make
+CMakeFiles/p6_3.dir/Circle.cpp.o: ../Circle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dushan/Workspace/cs-homework/oop-i/p6-3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/p6_3.dir/Circle.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/p6_3.dir/Circle.cpp.o -c /home/dushan/Workspace/cs-homework/oop-i/p6-3/Circle.cpp
+
+CMakeFiles/p6_3.dir/Circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/p6_3.dir/Circle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dushan/Workspace/cs-homework/oop-i/p6-3/Circle.cpp > CMakeFiles/p6_3.dir/Circle.cpp.i
+
+CMakeFiles/p6_3.dir/Circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/p6_3.dir/Circle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dushan/Workspace/cs-homework/oop-i/p6-3/Circle.cpp -o CMakeFiles/p6_3.dir/Circle.cpp.s
+
+CMakeFiles/p6_3.dir/Circle.cpp.o.requires:
+
+.PHONY : CMakeFiles/p6_3.dir/Circle.cpp.o.requires
+
+CMakeFiles/p6_3.dir/Circle.cpp.o.provides: CMakeFiles/p6_3.dir/Circle.cpp.o.requires
+	$(MAKE) -f CMakeFiles/p6_3.dir/build.make CMakeFiles/p6_3.dir/Circle.cpp.o.provides.build
+.PHONY : CMakeFiles/p6_3.dir/Circle.cpp.o.provides
+
+CMakeFiles/p6_3.dir/Circle.cpp.o.provides.build: CMakeFiles/p6_3.dir/Circle.cpp.o
+
+
+CMakeFiles/p6_3.dir/Square.cpp.o: CMakeFiles/p6_3.dir/flags.make
+CMakeFiles/p6_3.dir/Square.cpp.o: ../Square.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dushan/Workspace/cs-homework/oop-i/p6-3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/p6_3.dir/Square.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/p6_3.dir/Square.cpp.o -c /home/dushan/Workspace/cs-homework/oop-i/p6-3/Square.cpp
+
+CMakeFiles/p6_3.dir/Square.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/p6_3.dir/Square.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dushan/Workspace/cs-homework/oop-i/p6-3/Square.cpp > CMakeFiles/p6_3.dir/Square.cpp.i
+
+CMakeFiles/p6_3.dir/Square.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/p6_3.dir/Square.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dushan/Workspace/cs-homework/oop-i/p6-3/Square.cpp -o CMakeFiles/p6_3.dir/Square.cpp.s
+
+CMakeFiles/p6_3.dir/Square.cpp.o.requires:
+
+.PHONY : CMakeFiles/p6_3.dir/Square.cpp.o.requires
+
+CMakeFiles/p6_3.dir/Square.cpp.o.provides: CMakeFiles/p6_3.dir/Square.cpp.o.requires
+	$(MAKE) -f CMakeFiles/p6_3.dir/build.make CMakeFiles/p6_3.dir/Square.cpp.o.provides.build
+.PHONY : CMakeFiles/p6_3.dir/Square.cpp.o.provides
+
+CMakeFiles/p6_3.dir/Square.cpp.o.provides.build: CMakeFiles/p6_3.dir/Square.cpp.o
+
+
 # Object files for target p6_3
 p6_3_OBJECTS = \
-"CMakeFiles/p6_3.dir/main.cpp.o"
+"CMakeFiles/p6_3.dir/main.cpp.o" \
+"CMakeFiles/p6_3.dir/Area.cpp.o" \
+"CMakeFiles/p6_3.dir/Rectangle.cpp.o" \
+"CMakeFiles/p6_3.dir/Ring.cpp.o" \
+"CMakeFiles/p6_3.dir/Circle.cpp.o" \
+"CMakeFiles/p6_3.dir/Square.cpp.o"
 
 # External object files for target p6_3
 p6_3_EXTERNAL_OBJECTS =
 
 p6_3: CMakeFiles/p6_3.dir/main.cpp.o
+p6_3: CMakeFiles/p6_3.dir/Area.cpp.o
+p6_3: CMakeFiles/p6_3.dir/Rectangle.cpp.o
+p6_3: CMakeFiles/p6_3.dir/Ring.cpp.o
+p6_3: CMakeFiles/p6_3.dir/Circle.cpp.o
+p6_3: CMakeFiles/p6_3.dir/Square.cpp.o
 p6_3: CMakeFiles/p6_3.dir/build.make
 p6_3: CMakeFiles/p6_3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dushan/Workspace/cs-homework/oop-i/p6-3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable p6_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dushan/Workspace/cs-homework/oop-i/p6-3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable p6_3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/p6_3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +230,11 @@ CMakeFiles/p6_3.dir/build: p6_3
 .PHONY : CMakeFiles/p6_3.dir/build
 
 CMakeFiles/p6_3.dir/requires: CMakeFiles/p6_3.dir/main.cpp.o.requires
+CMakeFiles/p6_3.dir/requires: CMakeFiles/p6_3.dir/Area.cpp.o.requires
+CMakeFiles/p6_3.dir/requires: CMakeFiles/p6_3.dir/Rectangle.cpp.o.requires
+CMakeFiles/p6_3.dir/requires: CMakeFiles/p6_3.dir/Ring.cpp.o.requires
+CMakeFiles/p6_3.dir/requires: CMakeFiles/p6_3.dir/Circle.cpp.o.requires
+CMakeFiles/p6_3.dir/requires: CMakeFiles/p6_3.dir/Square.cpp.o.requires
 
 .PHONY : CMakeFiles/p6_3.dir/requires
 
