@@ -10,6 +10,7 @@ using namespace std;
 #include "Circle.h"
 #include "Ring.h"
 #include "Rectangle.h"
+#include "Square.h"
 
 
 
@@ -32,7 +33,7 @@ using namespace std;
 
 
 
-const int num_obj = 6;
+const int num_obj = 7;
 int main() {
     Area *list[num_obj];						// (1) A list of Area object POINTERS is declared
     int index = 0;								// (2) This is the index of the list 'list' which will be used for traversing
@@ -49,12 +50,15 @@ int main() {
     Rectangle black_rectangle("BLACK", 10, 20);
     cout << "Creating Ring: ";
     Ring violet_ring("VIOLET", 100, 5);
+    cout << "Creating a Square: ";
+    Square blue_square("BLUE", 50);
     list[0] = &blue_ring;						// (5) All the previous instances
     list[1] = &yellow_circle;                   // of Ring, Circle and Rectangle
     list[2] = &green_rectangle;                 // are inserted in the list of Area pointers
     list[3] = &red_circle;                      // This is possible because the
     list[4] = &black_rectangle;                 // objects are derived from the class Area
     list[5] = &violet_ring;                     // This aspect of programming is called polymorphism
+    list[6] = &blue_square;
     while (index < num_obj) {					// (7) Go through all objects in the list using 'index'
         (list[index])->getColor();				// (8) First print the color and then add the area to the 'sum_area'
         sum_area += (list[index++])->calcArea();

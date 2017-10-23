@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/p6_4.dir/Area.cpp.o CMakeFiles/p6_4.dir/Circle.cpp.o CMakeFiles/p6_4.dir/main.cpp.o CMakeFiles/p6_4.dir/Rectangle.cpp.o CMakeFiles/p6_4.dir/Ring.cpp.o CMakeFiles/p6_4.dir/Square.cpp.o  -o p6_4 
