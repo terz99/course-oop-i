@@ -137,7 +137,7 @@ public:
     }
 
     inline int getGoals() const{
-        this->goals;
+        return this->goals;
     }
 
     inline int getFoot() const{

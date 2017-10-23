@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dushan/Workspace/cs-homework/oop-i/p5-5/fraction.cpp
+iostream
+-
+fraction.h
+/home/dushan/Workspace/cs-homework/oop-i/p5-5/fraction.h
+
+/home/dushan/Workspace/cs-homework/oop-i/p5-5/fraction.h
+iostream
+-
+
+/home/dushan/Workspace/cs-homework/oop-i/p5-5/main.cpp
+iostream
+-
+fraction.h
+/home/dushan/Workspace/cs-homework/oop-i/p5-5/fraction.h
+

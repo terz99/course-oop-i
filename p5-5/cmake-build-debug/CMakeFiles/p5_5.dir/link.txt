@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/p5_5.dir/main.cpp.o CMakeFiles/p5_5.dir/fraction.cpp.o  -o p5_5 
