@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/p5_4.dir/main.cpp.o CMakeFiles/p5_4.dir/TournamentMember.cpp.o  -o p5_4 
