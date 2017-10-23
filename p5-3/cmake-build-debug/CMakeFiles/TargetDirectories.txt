@@ -1,0 +1,3 @@
+/home/dushan/Workspace/cs-homework/oop-i/p5-3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dushan/Workspace/cs-homework/oop-i/p5-3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dushan/Workspace/cs-homework/oop-i/p5-3/cmake-build-debug/CMakeFiles/p5_3.dir

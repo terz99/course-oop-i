@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dushan/Workspace/cs-homework/oop-i/p5-3/TournamentMember.cpp
+iostream
+-
+TournamentMember.h
+/home/dushan/Workspace/cs-homework/oop-i/p5-3/TournamentMember.h
+
+/home/dushan/Workspace/cs-homework/oop-i/p5-3/TournamentMember.h
+
+/home/dushan/Workspace/cs-homework/oop-i/p5-3/main.cpp
+iostream
+-
+TournamentMember.h
+/home/dushan/Workspace/cs-homework/oop-i/p5-3/TournamentMember.h
+
